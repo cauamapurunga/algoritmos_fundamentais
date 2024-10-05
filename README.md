@@ -1,6 +1,6 @@
 # Algoritmos Fundamentais
 
-Este projeto é um site simples que executa algoritmos fundamentais em JavaScript. A interface inclui botões que acionam diferentes algoritmos, e a página é estilizada com CSS para uma aparência agradável. Além disso, o repositório inclui links para a implementação dos algoritmos em Java.
+Este projeto é um site simples que executa algoritmos fundamentais em JavaScript e Java. A interface inclui botões que acionam diferentes algoritmos, e a página é estilizada com CSS para uma aparência agradável.
 
 ## Funcionalidades
 

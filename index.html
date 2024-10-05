@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos Fundamentais</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="selection-screen" class="menu-container">
+        <h1>Algoritmos Fundamentais</h1>
+        <div class="button-container">
+            <button onclick="selectLanguage('javascript')">JavaScript</button>
+            <button onclick="selectLanguage('java')">Java</button>
+        </div>
+    </div>
+
+    <div id="javascript-buttons" class="hidden container">
+        <button class="back-button" onclick="goBack()">← Voltar</button>
+        <button onclick="Contagem()">Executar Contagem</button>
+        <button onclick="DivisorComum()">Executar Divisor Comum</button>
+        <button onclick="Fibonacci()">Executar Fibonacci</button>
+        <button onclick="NumPrimo()">Executar Número Primo</button>
+        <button onclick="Ordenacao()">Executar Ordenação</button>
+        <button onclick="Somatorio()">Executar Somatório</button>
+        <button onclick="ParOuImpar()">Executar Par ou Ímpar</button>
+    </div>
+
+    <div id="java-buttons" class="hidden container">
+        <button class="back-button" onclick="goBack()">← Voltar</button>
+        <a href="https://www.jdoodle.com/ia/1jPY" target="_blank"><button>Executar Contagem</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ0" target="_blank"><button>Executar Divisor Comum</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ2" target="_blank"><button>Executar Fibonacci</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ4" target="_blank"><button>Executar Número Primo</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ5" target="_blank"><button>Executar Ordenação</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ8" target="_blank"><button>Executar Somatório</button></a>
+        <a href="https://www.jdoodle.com/ia/1jQ7" target="_blank"><button>Executar Par ou Ímpar</button></a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
